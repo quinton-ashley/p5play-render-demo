@@ -1,0 +1,24 @@
+{
+	"name": "p5play-server",
+	"version": "1.0.0",
+	"description": "Server side image rendering demo using node.js",
+	"author": "quinton-ashley",
+	"license": "CC0",
+	"dependencies": {
+		"canvas": "^2.11.2",
+		"jsdom": "^24.0.0",
+		"p5play": "^3.21.4",
+		"q5": "^1.9.16"
+	},
+	"devDependencies": {
+		"@types/p5": "^1.7.6"
+	},
+	"main": "render-node.js",
+	"scripts": {
+		"v": "npm version patch --force",
+		"V": "npm version minor --force",
+		"version": "git add -A",
+		"postversion": "git push",
+		"relink": "npm link ../../pkg/p5play ../../pkg/q5"
+	}
+}
