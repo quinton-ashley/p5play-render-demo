@@ -10,7 +10,6 @@ Install [node.js](https://nodejs.org). Then in a Terminal, open this folder and 
 
 - `package.json` : contains info about the project and its dependencies.
 - `jsconfig.json` : a config file for VSCode that enables autocompletion for p5play.
-- `render.js` : renders art using Bun. (NOT WORKING)
 - `render-node.js` : renders art using Node.js.
 
 ## Running the Server

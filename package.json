@@ -1,14 +1,14 @@
 {
 	"name": "p5play-render-demo",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Server side image rendering demo using node.js",
 	"author": "quinton-ashley",
 	"license": "CC0",
 	"dependencies": {
 		"canvas": "^2.11.2",
-		"jsdom": "^24.0.0",
-		"p5play": "^3.21.4",
-		"q5": "^1.9.16"
+		"jsdom": "^25.0.1",
+		"p5play": "^3.24.5",
+		"q5": "^2.9.4"
 	},
 	"devDependencies": {
 		"@types/p5": "^1.7.6"

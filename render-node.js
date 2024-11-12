@@ -35,18 +35,14 @@ tri.speed = 100;
 // disable the default 60fps draw loop
 noLoop();
 
-// optionally signify that q5 can run your setup function
-// once preloading is complete
-preload();
-
 function setup() {
-	// redraw should not be called inside setup (p5 doesn't allow it)
+	// redraw should not be called inside setup
 	// so use setTimeout to call the start function after setup is done
 	setTimeout(start);
 }
 
 function start() {
-	// draw 12 frames as fast as possible! use redraw instead of draw
+	// draw 12 frames as fast as possible! use redraw
 	// to ensure that pre and post draw p5play hooks are called
 	redraw(12);
 
