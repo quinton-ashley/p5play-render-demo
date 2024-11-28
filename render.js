@@ -4,14 +4,11 @@
  *
  * Renders art server side as fast as possible.
  *
- * The npm packages `canvas` and `jsdom` must be installed
+ * The npm packages `skia-canvas` and `jsdom` must be installed
  * to run this example.
  */
 
-// imports the node file system package
-const fs = require('fs');
-
-// imports q5 and p5play
+// import q5 and p5play
 require('q5');
 require('p5play');
 
@@ -25,7 +22,7 @@ global.draw = draw;
 new Q5();
 
 new Canvas(800, 800);
-background('#444');
+background('black');
 
 let tri = new Sprite(0, 0);
 tri.image = loadImage('triangle.png');
@@ -47,12 +44,11 @@ function start() {
 	redraw(12);
 
 	// save the canvas to a png image file
-	const buffer = canvas.toBuffer('image/png');
-	fs.writeFileSync(__dirname + '/out/test.png', buffer);
+	canvas.save(__dirname + '/sketch.png');
 
 	// log the time it took to create the image
 	const time = (performance.now() / 1000).toFixed(2);
-	log('Created test.png! In ' + time + ' seconds');
+	log('Created sketch.png! In ' + time + ' seconds');
 }
 
 function draw() {
