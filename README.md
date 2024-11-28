@@ -1,6 +1,6 @@
 # p5play-render
 
-Server side image rendering demo. Demonstrates how p5play can be used with the `jsdom` and `canvas` packages to make an image.
+Server side image rendering demo. Demonstrates how p5play can be used with the `jsdom` and `skia-canvas` packages to make an image.
 
 ## Requirements
 

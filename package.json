@@ -1,6 +1,6 @@
 {
 	"name": "p5play-render-demo",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Server side image rendering in node.js",
 	"author": "quinton-ashley",
 	"license": "CC0",
