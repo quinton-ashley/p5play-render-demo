@@ -14,8 +14,12 @@ Install [node.js](https://nodejs.org). Then in a Terminal, open this folder and 
 
 ## Running the Server
 
-In a Terminal, open this folder and run `node render-node.js`. It forgoes the draw loop, rendering as fast as possible.
+In a Terminal, open this folder and run:
 
-The program should finish in under a second and you should see a new file, `test.png`, in the `out` folder.
+```zsh
+node render.js
+```
 
-Why did I make this demo? Being able to render the server-side physics simulation could be helpful for debugging.
+The program should finish in under a second and you should see a new `sketch.png` file added to this folder.
+
+Why did I make this demo? Being able to render server-side physics simulations could be helpful for debugging.
