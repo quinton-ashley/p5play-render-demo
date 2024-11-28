@@ -22,7 +22,7 @@ global.draw = draw;
 new Q5();
 
 new Canvas(800, 800);
-background('black');
+background('silver');
 
 let tri = new Sprite(0, 0);
 tri.image = loadImage('triangle.png');
